@@ -1,0 +1,106 @@
+[
+    {
+        "question" : "C is the successor of ___ programming language.",
+        "options" : 
+        [
+            "C++",
+            "B++",
+            "B",
+            "Mini C"
+        ],        
+        "answer" : "B"
+    },
+	{
+        "question" : "How to round-off a value '5.77' to 6.0?",
+        "options" : 
+        [
+            "ceil(5.77)",
+            "round-off(5.77)",
+            "round-up(5.77)",
+            "floor(5.77)"
+        ],        
+        "answer" : "ceil(5.77)"
+    },
+	{
+        "question" : "stderr, stdin, stdout are FILE pointers.",
+        "options" : 
+        [
+            "True",
+            "False"
+        ],        
+        "answer" : "True"
+    },
+	{
+        "question" : "Which library functions help users to dynamically allocate memory?",
+        "options" : 
+        [
+            "memalloc()and alloc()",
+            "malloc() and memalloc()",
+            "malloc() and calloc()",
+            "memalloc() and calloc()"
+        ],        
+        "answer" : "malloc() and calloc()"
+    },
+	{
+        "question" : "Identify the invalid constant used in fseek() function as ‘whence’ reference.",
+        "options" : 
+        [
+            "SEEK_SET",
+            "SEEK_CUR",
+            "SEEK_BEG",
+            "SEEK_END"
+        ],        
+        "answer" : "SEEK_BEG"
+    },
+	{
+        "question" : "The keyword used to transfer control from a function back to the calling function is",
+        "options" : 
+        [
+            "switch",
+            "goto",
+            "go back",
+            "return"
+        ],        
+        "answer" : "return"
+    },
+	{
+        "question" : "The library function used to find the last occurrence of a character in a string is",
+        "options" : 
+        [
+            "strnstr()",
+            "laststr()",
+            "strrchr()",
+            "strstr()"
+        ],        
+        "answer" : "strrchr()"
+    },
+	{
+        "question" : "The first argument to be supplied at command-line must always be count of total arguments.",
+        "options" : 
+        [
+            "True",
+            "False"
+        ],        
+        "answer" : "False"
+    },
+	{
+        "question" : "How will you free the allocated memory ?",
+        "options" : 
+        [
+            "remove(var-name);",
+            "free(var-name);",
+            "delete(var-name);",
+            "dalloc(var-name);"
+        ],        
+        "answer" : "free(var-name);"
+    },
+	{
+        "question" : "malloc() allocates memory from the heap and not from the stack.",
+        "options" : 
+        [
+            "True",
+            "False"
+        ],        
+        "answer" : "True"
+    }
+]

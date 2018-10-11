@@ -1,0 +1,109 @@
+[
+    {
+        "question" : "Bootstrap 3 is mobile-first.",
+        "options" : 
+        [
+            "True",
+            "False"
+        ],        
+        "answer" : "True"
+    },
+	{
+        "question" : "Which class provides a full width container, spanning the entire width of the viewport?",
+        "options" : 
+        [
+            ".container-fluid",
+            ".container",
+            ".container-fixed"
+        ],        
+        "answer" : ".container-fluid"
+    },
+	{
+        "question" : "The Bootstrap grid system is based on how many columns?",
+        "options" : 
+        [
+            "3",
+            "6",
+            "9",
+            "12"
+        ],        
+        "answer" : "12"
+    },
+	{
+        "question" : "Which class adds zebra-stripes to a table?",
+        "options" : 
+        [
+            ".table-striped",
+            ".table-bordered",
+            ".even and .odd",
+            ".table-zebra"
+        ],        
+        "answer" : ".table-striped"
+    },
+	{
+        "question" : "Which class shapes an image to a circle?",
+        "options" : 
+        [
+            ".img-round",
+            ".img-thumbnail",
+            ".img-circle",
+            ".img-rounded"
+        ],        
+        "answer" : ".img-circle"
+    },
+	{
+        "question" : "Which class is used to create a big box for calling extra attention?",
+        "options" : 
+        [
+            ".jumbotron",
+            ".bigbox",
+            ".container",
+            "flex"
+        ],        
+        "answer" : ".jumbotron"
+    },
+	{
+        "question" : "Which button class is used to create a large button?",
+        "options" : 
+        [
+            ".btn-xl",
+            ".btn-lg",
+            ".btn-l",
+            ".btn-large"
+        ],        
+        "answer" : ".btn-lg"
+    },
+	{
+        "question" : "Which class is used to create a button group?",
+        "options" : 
+        [
+            ".group-btn",
+            ".button-group",
+            ".btn-group",
+            ".group-button"
+        ],        
+        "answer" : ".btn-group"
+    },
+	{
+        "question" : "Which plugin is used to cycle through elements, like a slideshow?",
+        "options" : 
+        [
+            "Slideshow",
+            "Carousel",
+            "Scrollspy",
+            "Orbit"
+        ],        
+        "answer" : "Carousel"
+    },
+	{
+        "question" : "Which class indicates a dropdown menu?",
+        "options" : 
+        [
+            ".select",
+            ".dropdown",
+            ".dropdown-list",
+            ".dropdown-menu"
+        ],        
+        "answer" : ".dropdown"
+    }   
+]

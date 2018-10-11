@@ -1,0 +1,110 @@
+[
+    {
+        "question" : "Which is a reserved word in the Java programming language?",
+        "options" : 
+        [
+            "method",
+            "native",
+            "subclass",
+            "reference"
+        ],        
+        "answer" : "native"
+    },
+	{
+        "question" : "Which one of the following will declare an array and initialize it with five numbers?",
+        "options" : 
+        [
+            "Array a = new Array(5);",
+            "int [] a = {23,22,21,20,19};",
+            "int a [] = new int[5];",
+            "int [5] array;"
+        ],        
+        "answer" : "int [] a = {23,22,21,20,19};"
+    },
+	{
+        "question" : "Which is the valid declarations within an interface definition?",
+        "options" : 
+        [
+            "public double method1();",
+            "public final double method1();",
+            "static void method1(double d1);",
+            "protected void method1(double d1);"
+        ],        
+        "answer" : "public double method1();"
+    },
+	{
+        "question" : "Which one is a valid declaration of a boolean?",
+        "options" : 
+        [
+            "boolean b1 = 0;",
+            "boolean b2 = 'false';",
+            "boolean b3 = false;",
+            "boolean b4 = Boolean.false();"
+        ],        
+        "answer" : "boolean b3 = false;"
+    },
+	{
+        "question" : "What is the numerical range of a char?",
+        "options" : 
+        [
+            "-128 to 127",
+            "-(215) to (215) - 1",
+            "0 to 32767",
+            "0 to 65535"
+        ],        
+        "answer" : "0 to 65535"
+    },
+	{
+        "question" : "Which is a valid declaration of a String?",
+        "options" : 
+        [
+            "String s1 = null;",
+            "String s2 = 'null';",
+            "String s3 = (String) 'abc';",
+            "String s4 = (String) '\ufeed';"
+        ],        
+        "answer" : "String s1 = null;"
+    },
+	{
+        "question" : "What is the name of the method used to start a thread execution?",
+        "options" : 
+        [
+            "init();",
+            "start();",
+            "run();",
+            "resume();"
+        ],        
+        "answer" : "start();"
+    },
+	{
+        "question" : "Which will contain the body of the thread?",
+        "options" : 
+        [
+            "run();",
+            "start();",
+            "stop();",
+            "main();"
+        ],        
+        "answer" : "run();"
+    },
+	{
+        "question" : "You need to store elements in a collection that guarantees that no duplicates are stored and all elements can be accessed in natural order. Which interface provides that capability?",
+        "options" : 
+        [
+            "java.util.Map",
+            "java.util.Set",
+            "java.util.List",
+            "java.util.Collection"
+        ],        
+        "answer" : "java.util.Set"
+    },
+	{
+        "question" : "Can try statements be nested?",
+        "options" : 
+        [
+            "Yes",
+            "No"
+        ],        
+        "answer" : "Yes"
+    }
+]

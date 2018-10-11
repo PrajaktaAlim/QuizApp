@@ -1,0 +1,108 @@
+[
+    {
+        "question" : "Can static procedures access instance data?",
+        "options" : 
+        [
+            "Yes",
+            "No"
+        ],        
+        "answer" : "No"
+    },
+	{
+        "question" : "How many times can a constructor be called during lifetime of the object?",
+        "options" : 
+        [
+            "As many times as we call it",
+            "Only once",
+            "Any number of times before the object gets garbage collected",
+            "Any number of times before the object is deleted"
+        ],        
+        "answer" : "Only once"
+    },
+	{
+        "question" : "Which of the following statements are correct about static functions?",
+        "options" : 
+        [
+            "Static functions are invoked using objects of a class",
+            "Static functions can access static data as well as instance data",
+            "Static functions are outside the class scope",
+            "Static functions are invoked using class"
+        ],        
+        "answer" : "Static functions are invoked using class"
+    },
+	{
+        "question" : "Which of the following statements is correct about constructors in C#.NET?",
+        "options" : 
+        [
+            "A constructor cannot be declared as private",
+            "A constructor cannot be overloaded",
+            "A constructor can be a static constructor",
+            "A constructor cannot access static data"
+        ],        
+        "answer" : "A constructor can be a static constructor"
+    },
+	{
+        "question" : "Which of the following statements is correct?",
+        "options" : 
+        [
+            "It is not possible to extend the if statement to handle multiple conditions using the else-if arrangement.",
+            "The switch statement can include any number of case instances with two case statements having the same value.",
+            "A jump statement such as a break is required after each case block excluding the last block if it is a default statement.",
+            "The if statement selects a statement for execution based on the value of a Boolean expression."
+        ],        
+        "answer" : "The if statement selects a statement for execution based on the value of a Boolean expression."
+    },
+	{
+        "question" : "Which one of the following statements is correct?",
+        "options" : 
+        [
+            "The rank of an Array is the total number of elements it can contain.",
+            "The length of an Array is the number of dimensions in the Array.",
+            "The default value of numeric array elements is zero.",
+            "The Array elements are guaranteed to be sorted."
+        ],        
+        "answer" : "The default value of numeric array elements is zero."
+    },
+	{
+        "question" : "In C#.NET if we do not catch the exception thrown at runtime then which of the following will catch it?",
+        "options" : 
+        [
+            "Compiler",
+            "CLR",
+            "Linker",
+            "Operating system"
+        ],        
+        "answer" : "CLR"
+    },
+	{
+        "question" : "All code inside finally block is guaranteed to execute irrespective of whether an exception occurs in the protected block or not.",
+        "options" : 
+        [
+            "True",
+            "False"
+        ],        
+        "answer" : "True"
+    },
+	{
+        "question" : "Which of the following statements is correct about an interface used in C#.NET?",
+        "options" : 
+        [
+            "One class can implement only one interface.",
+            "Properties can be declared inside an interface.",
+            "In a program if one class implements an interface then no other class in the same program can implement this interface.",
+            "From two base interfaces a new interface cannot be inherited."
+        ],        
+        "answer" : "Properties can be declared inside an interface."
+    },
+	{
+        "question" : "Which of the following statements is incorrect about a delegate?",
+        "options" : 
+        [
+            "A single delegate can invoke more than one method.",
+            "Delegate is a value type.",
+            "Delegates are type-safe wrappers for function pointers.",
+            "The signature of a delegate must match the signature of the method that is to be called using it."
+        ],        
+        "answer" : "Delegate is a value type."
+    }
+]

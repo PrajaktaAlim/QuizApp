@@ -1,0 +1,106 @@
+[
+    {
+        "question" : "What does HTML stand for?",
+        "options" : 
+        [
+            "Hyperlinks and Text Markup Language",
+            "Hyper Text Markup Language",
+            "Home Tool Markup Language"
+        ],        
+        "answer" : "Hyper Text Markup Language"
+    },
+	{
+        "question" : "Who makes the Web standards?",
+        "options" : 
+        [
+            "Mozilla",
+            "Google",
+            "The World Wide Web Consortium",
+            "Microsoft"
+        ],        
+        "answer" : "The World Wide Web Consortium"
+    },
+	{
+        "question" : "Choose the correct HTML element for the largest heading:",
+        "options" : 
+        [
+            "<h1>",
+            "<h6>",
+            "<head>",
+            "<heading>"
+        ],        
+        "answer" : "<h1>"
+    },
+	{
+        "question" : "How can you open a link in a new tab/browser window?",
+        "options" : 
+        [
+            "<a href=\"url\" new>",
+            "<a href=\"url\" target=\"_blank\">",
+            "<a href=\"url\" target=\"new\">"
+        ],        
+        "answer" : "<a href=\"url\" target=\"_blank\">"
+    },
+	{
+        "question" : "Inline elements are normally displayed without starting a new line.",
+        "options" : 
+        [
+            "False",
+            "True"
+        ],        
+        "answer" : "True"
+    },
+	{
+        "question" : "What is the correct HTML for making a drop-down list?",
+        "options" : 
+        [
+            "<list>",
+            "<select>",
+            "<input type=\"list\">",
+            "<input type=\"dropdown\">"
+        ],        
+        "answer" : "<select>"
+    },
+	{
+        "question" : "In HTML, which attribute is used to specify that an input field must be filled out?",
+        "options" : 
+        [
+            "validate",
+            "formvalidate",
+            "required",
+            "placeholder"
+        ],        
+        "answer" : "required"
+    },
+	{
+        "question" : "Which HTML element defines navigation links?",
+        "options" : 
+        [
+            "<navigation>",
+            "<navigate>",
+            "<nav>"
+        ],        
+        "answer" : "<nav>"
+    },
+	{
+        "question" : "Graphics defined by SVG is in which format?",
+        "options" : 
+        [
+            "CSS",
+            "HTML",
+            "XML"
+        ],        
+        "answer" : "XML"
+    },
+	{
+        "question" : "What is the correct HTML for making a checkbox?",
+        "options" : 
+        [
+            "<input type=\"check\">",
+            "<check>",
+            "<input type=\"checkbox\">",
+            "<checkbox>"
+        ],        
+        "answer" : "<input type=\"checkbox\">"
+    }
+]

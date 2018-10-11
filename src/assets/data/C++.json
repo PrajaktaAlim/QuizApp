@@ -1,0 +1,110 @@
+[
+    {
+        "question" : "Designer of C++ programming language is",
+        "options" : 
+        [
+            "Charles Babbage",
+            "Dennis Ritchie",
+            "Brian Kernighan",
+            "Bjarne Stroustrup"
+        ],        
+        "answer" : "Bjarne Stroustrup"
+    },
+	{
+        "question" : "The programs machine instructions are store in __ memory segment.",
+        "options" : 
+        [
+            "Data",
+            "Stack",
+            "Heap",
+            "Code"
+        ],        
+        "answer" : "Code"
+    },
+	{
+        "question" : "With respective to streams >> (operator) is called as",
+        "options" : 
+        [
+            "Insertion operator",
+            "Extraction operator",
+            "Right shift operator",
+            "Left shift operator"
+        ],        
+        "answer" : "Extraction operator"
+    },
+	{
+        "question" : "Which operator is required to be overloaded as member function only?",
+        "options" : 
+        [
+            "_",
+            "--",
+            "++",
+            "="
+        ],        
+        "answer" : "="
+    },
+	{
+        "question" : "Runtime polymorphism is done using",
+        "options" : 
+        [
+            "Function overloading",
+            "Virtual classes",
+            "Virtual functions",
+            "Friend function"
+        ],        
+        "answer" : "Virtual functions"
+    },
+	{
+        "question" : "What happens when a class with parameterized constructors and having no default constructor is used in a program and we create an object that needs a zero-argument constructor?",
+        "options" : 
+        [
+            "Compile-time error",
+            "Preprocessing error",
+            "Runtime error",
+            "Runtime exception"
+        ],        
+        "answer" : "Compile-time error"
+    },
+	{
+        "question" : "Can a class have virtual destructor?",
+        "options" : 
+        [
+            "Yes",
+            "No"
+        ],        
+        "answer" : "Yes"
+    },
+	{
+        "question" : "Which of the following statements is incorrect?",
+        "options" : 
+        [
+            "Friend keyword can be used in the class to allow access to another class.",
+            "Friend keyword can be used for a function in the public section of a class.",
+            "Friend keyword can be used for a function in the private section of a class.",
+            "Friend keyword can be used on main()."
+        ],        
+        "answer" : "Friend keyword can be used on main()."
+    },
+	{
+        "question" : "Which of the following can access private data members or member functions of a class?",
+        "options" : 
+        [
+            "Any function in the program",
+            "All global functions in the program",
+            "Any member function of that class",
+            "Only public member functions of that class"
+        ],        
+        "answer" : "Any member function of that class"
+    },
+	{
+        "question" : "Which of the following type of data member can be shared by all instances of its class?",
+        "options" : 
+        [
+            "Public",
+            "Inherited",
+            "Static",
+            "Friend"
+        ],        
+        "answer" : "Static"
+    }   
+]

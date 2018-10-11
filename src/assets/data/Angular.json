@@ -1,0 +1,112 @@
+[
+    {
+        "question" : "Which of the following is correct about TypeScript?",
+        "options" : 
+        [
+            "Angular 2 is based on TypeScript.",
+            "This is a superset of JavaScript.",
+            "TypeScript is maintained by Microsoft.",
+            "All of the above"
+        ],        
+        "answer" : "All of the above"
+    },
+	{
+        "question" : "Which of the following is true?",
+        "options" : 
+        [
+            "Angular 2 Modules are used to create components which can be shared across the entire application.",
+            "Angular 2 Metadata is used to create components which can be shared across the entire application.",
+            "Angular 2 Services are used to create components which can be shared across the entire application.",
+            "None of the above"
+        ],        
+        "answer" : "Angular 2 Services are used to create components which can be shared across the entire application."
+    },
+	{
+        "question" : "Which of the following is correct about Export Array in Angular 2 Modules?",
+        "options" : 
+        [
+            "This is used to export components, directives, and pipes which can then be used in other modules.",
+            "This is used to export services which can then be used in other services.",
+            "Both of the above",
+            "None of the above"
+        ],        
+        "answer" : "This is used to export components, directives, and pipes which can then be used in other modules."
+    },
+	{
+        "question" : "Which of the following is correct about Angular 2 Routing?",
+        "options" : 
+        [
+            "Routing helps in directing users to different pages based on the option they choose on the main page.",
+            "Based on the option they choose, the required Angular Component will be rendered to the user.",
+            "Both of the above",
+            "None of the above"
+        ],        
+        "answer" : "Both of the above"
+    },
+	{
+        "question" : "Which of the following filter is used to convert an input string to date format.",
+        "options" : 
+        [
+            "dateformat",
+            "date",
+            "Both of the above",
+            "None of the above"
+        ],        
+        "answer" : "date"
+    },
+	{
+        "question" : "Angular 2 components can be described using ________is a way to do some meta-programming.",
+        "options" : 
+        [
+            "controllers, controller",
+            "loaders, loader",
+            "typescripts, typescript",
+            "decorators, decorator"
+        ],        
+        "answer" : "decorators, decorator"
+    },
+	{
+        "question" : "The ______ directive substitutes the normal href property and makes it easier to work with route links in Angular 2.",
+        "options" : 
+        [
+            "RouterRend",
+            "RouterLink",
+            "RouterLike",
+            "RouterLayer"
+        ],        
+        "answer" : "RouterLink"
+    },
+	{
+        "question" : "A special mention is required about the children element marked with the ______ directive attribute. This attribute qualifies the template that will be displayed when no other value defined by its ngSwitchWhen siblings matches the parent conditional expression.",
+        "options" : 
+        [
+            "ngDefault",
+            "ngTemplateDefault",
+            "ngDefaultSwitch",
+            "ngSwitchDefault"
+        ],        
+        "answer" : "ngSwitchDefault"
+    },
+	{
+        "question" : "Using below wild card we can define page not found route",
+        "options" : 
+        [
+            "*",
+            "**",
+            "404",
+            "!"
+        ],        
+        "answer" : "**"
+    },
+	{
+        "question" : "A component can have child route defined using below property",
+        "options" : 
+        [
+            "routes",
+            "children",
+            "routeCollection",
+            "None of the above"
+        ],        
+        "answer" : "children"
+    }
+]

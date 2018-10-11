@@ -1,0 +1,102 @@
+[
+    {
+        "question" : "Inside which HTML element do we put the JavaScript?",
+        "options" : 
+        [
+            "<js>",
+            "<script>",
+            "<scripting>",
+            "<javascript>"
+        ],        
+        "answer" : "<script>"
+    },
+	{
+        "question" : "Where is the correct place to insert a JavaScript?",
+        "options" : 
+        [
+            "Both the <head> section and the <body> section are correct",
+            "The <head> section",
+            "The <body> section"
+        ],        
+        "answer" : "Both the <head> section and the <body> section are correct"
+    },
+	{
+        "question" : "What is the correct syntax for referring to an external script called \"xxx.js\"?",
+        "options" : 
+        [
+            "<script src=\"xxx.js\">",
+            "<script href=\"xxx.js\">",
+            "<script name=\"xxx.js\">"
+        ],        
+        "answer" : "<script src=\"xxx.js\">"
+    },
+	{
+        "question" : "The external JavaScript file must contain the <script> tag.",
+        "options" : 
+        [
+            "False",
+            "True"
+        ],        
+        "answer" : "False"
+    },
+	{
+        "question" : "How do you create a function in JavaScript?",
+        "options" : 
+        [
+            "function myFunction()",
+            "function = myFunction()",
+            "function:myFunction()"
+        ],        
+        "answer" : "function myFunction()"
+    },
+	{
+        "question" : "How to write an IF statement for executing some code if 'i' is NOT equal to 5?",
+        "options" : 
+        [
+            "if (i <> 5)",
+            "if i <> 5",
+            "if i =! 5 then",
+            "if (i != 5)"
+        ],        
+        "answer" : "if (i != 5)"
+    },
+	{
+        "question" : "How do you find the number with the highest value of x and y?",
+        "options" : 
+        [
+            "top(x, y)",
+            "Math.max(x, y)",
+            "ceil(x, y)",
+            "Math.ceil(x, y)"
+        ],        
+        "answer" : "Math.max(x, y)"
+    },
+	{
+        "question" : "What is the correct JavaScript syntax for opening a new window called 'w2'?",
+        "options" : 
+        [
+            "w2 = window.new(\"http://www.google.com\");",
+            "w2 = window.open(\"http://www.google.com\");"
+        ],        
+        "answer" : "w2 = window.open(\"http://www.google.com\");"
+    },
+	{
+        "question" : "How do you declare a JavaScript variable?",
+        "options" : 
+        [
+            "v carName;",
+            "variable carName;",
+            "var carName;"
+        ],        
+        "answer" : "var carName;"
+    },
+	{
+        "question" : "Is JavaScript case-sensitive?",
+        "options" : 
+        [
+            "Yes",
+            "No"
+        ],        
+        "answer" : "Yes"
+    }   
+]

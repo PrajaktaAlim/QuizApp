@@ -1,0 +1,26 @@
+<div class="col-lg-6 offset-3 my-5">
+<mat-card class="result-card my-2"> 
+  <mat-card-content>
+    <p class="text-center" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:large">
+      <strong>Result</strong> 
+      <mat-divider [inset]="true"></mat-divider>
+    </p>
+    <p>
+      You have scored {{ResultObj.TotalMarks}}/{{ResultObj.TotalQuestions}}
+    </p>  
+    <p>
+      Total correct answers: {{ResultObj.correctAnsCount}}
+    </p>
+    <p>
+      Total wrong answers: {{ResultObj.wrongAnsCount}}
+    </p>    
+  </mat-card-content>
+  
+  <mat-card-actions>
+    <div class="text-center">
+      <button mat-raised-button color="primary" class="m-2" routerLink="../topics">Take another Quiz</button>
+    </div>
+  </mat-card-actions>
+
+</mat-card>
+</div>

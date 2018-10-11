@@ -1,0 +1,48 @@
+<div class="col-lg-6 offset-3 my-5" *ngIf="!flag">
+    <mat-card>
+      <p class="text-center">
+        Please note:
+      </p>
+      <hr>
+      <ul style="line-height: 2em">
+        <li>There is no time limit.</li>
+        <li>There is no negative marking.</li>
+        <li>You will get 1 point for each correct answer.</li>
+        <li>Your total score will be displayed at the end of the quiz.</li>
+      </ul>
+      <mat-card-actions class="text-center">
+        <button class="mx-3" mat-raised-button color="primary" (click) = getNextQuestion()>Start the Quiz</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+
+<div class="col-lg-8 offset-2 my-5" *ngIf="!submitFlag">
+  <h4 class="text-center" *ngIf="flag">{{selectedQuiz}} Quiz</h4>
+  <mat-card class="quiz-card my-2" *ngIf="flag"> 
+    <mat-card-content>
+      <h6 class="text-center">
+          Quesion {{currentQNo + 1}} of {{filteredQuestions.length}}
+      </h6>
+      <p>
+        {{ filteredQuestions[currentQNo].question }}
+      </p>
+  
+      <mat-radio-group class="radio-group" [(ngModel)]="selectedAns">
+        <mat-radio-button class="radio-button" color="primary" *ngFor="let op of filteredQuestions[currentQNo].options" [value]="op">
+            {{op}}
+        </mat-radio-button>
+      </mat-radio-group>      
+    </mat-card-content>
+    
+    <mat-card-actions>
+      <div class="text-center">
+        <button mat-raised-button color="primary" (click)="getNextQuestion(currentQNo, selectedAns)">{{btnTextToDisplay}}</button>
+      </div>
+    </mat-card-actions>
+  
+  </mat-card>
+</div>
+
+<div *ngIf="submitFlag">
+    <app-result></app-result>
+</div>
